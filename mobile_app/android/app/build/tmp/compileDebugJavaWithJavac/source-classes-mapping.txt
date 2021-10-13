@@ -1,0 +1,14 @@
+com/sennenpropertymanagement/ReactNativeFlipper.java
+ com.sennenpropertymanagement.ReactNativeFlipper
+ com.sennenpropertymanagement.ReactNativeFlipper$1
+ com.sennenpropertymanagement.ReactNativeFlipper$2
+ com.sennenpropertymanagement.ReactNativeFlipper$2$1
+com/sennenpropertymanagement/MainActivity.java
+ com.sennenpropertymanagement.MainActivity
+com/sennenpropertymanagement/MainApplication.java
+ com.sennenpropertymanagement.MainApplication
+ com.sennenpropertymanagement.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/sennenpropertymanagement/BuildConfig.java
+ com.sennenpropertymanagement.BuildConfig

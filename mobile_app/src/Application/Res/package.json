@@ -1,0 +1,6 @@
+{
+    "name": "Res",
+    "main": "./ResHelper.js",
+    "version": "0.0.1"
+
+}

@@ -1,0 +1,6 @@
+module Pods_SennenPropertyManagement {
+  umbrella header "Pods-SennenPropertyManagement-umbrella.h"
+
+  export *
+  module * { export * }
+}

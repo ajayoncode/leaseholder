@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SennenPropertyManagement.iml" filepath="$PROJECT_DIR$/.idea/modules/SennenPropertyManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SennenPropertyManagement.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SennenPropertyManagement.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2105032040/SennenPropertyManagement.bugsnag-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/2105032040/SennenPropertyManagement.bugsnag-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1248859739/SennenPropertyManagement.react-native-action-sheet.iml" filepath="$PROJECT_DIR$/.idea/modules/-1248859739/SennenPropertyManagement.react-native-action-sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2074642833/SennenPropertyManagement.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/2074642833/SennenPropertyManagement.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1289112206/SennenPropertyManagement.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1289112206/SennenPropertyManagement.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1830716359/SennenPropertyManagement.react-native-community_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1830716359/SennenPropertyManagement.react-native-community_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2112154282/SennenPropertyManagement.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/2112154282/SennenPropertyManagement.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/424073161/SennenPropertyManagement.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/424073161/SennenPropertyManagement.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/486465501/SennenPropertyManagement.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/486465501/SennenPropertyManagement.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1483794570/SennenPropertyManagement.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1483794570/SennenPropertyManagement.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2111732909/SennenPropertyManagement.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/2111732909/SennenPropertyManagement.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742737148/SennenPropertyManagement.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/742737148/SennenPropertyManagement.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>
