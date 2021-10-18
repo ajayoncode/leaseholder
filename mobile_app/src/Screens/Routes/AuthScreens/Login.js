@@ -158,7 +158,6 @@ export default class Login extends BaseComponent {
                 </View>
             </View>
         );
-        this.hideSpinner();
     }
 
     onLoginClicked = () => {

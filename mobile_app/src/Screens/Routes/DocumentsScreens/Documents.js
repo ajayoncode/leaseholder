@@ -88,7 +88,7 @@ export default class Documents extends Component {
         </TouchableOpacity> */}
 
         <View style={{
-          width: this.state.width - 60, height: aspectRatio > 1.6 ? 50 : 60, alignItems: 'center', borderColor: Colors.inptxt_grey,
+          width: this.state.width*0.9, height: aspectRatio > 1.6 ? 50 : 60, alignItems: 'center', borderColor: Colors.inptxt_grey,
           borderRadius: 25,
           justifyContent: "center",
           borderWidth: 0.5,
@@ -439,7 +439,7 @@ const DocStyles = StyleSheet.create({
 
   btnTextStyle: {
     fontFamily: Fonts.SFProDisplayRegular,
-    fontSize: aspectRatio > 1.6 ? 16 : 28,
+    fontSize: ScreenRatio(2.0),
     color: 'white',
 
   },

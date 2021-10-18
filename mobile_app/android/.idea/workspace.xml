@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9def9bb5-ac96-403d-9155-742d2bc868d4" name="Default Changelist" comment="" />
+    <list default="true" id="9def9bb5-ac96-403d-9155-742d2bc868d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../src/Application/CustomComponents/CustomViews/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Application/CustomComponents/CustomViews/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/BaseComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/BaseComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/AuthScreens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/AuthScreens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/Contactus/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/Contactus/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/DocumentsScreens/Documents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/DocumentsScreens/Documents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/HomeScreens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/HomeScreens/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/MessagesScreens/MessageHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/MessagesScreens/MessageHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/MessagesScreens/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/MessagesScreens/Messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/MyAccountScreens/MyAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/MyAccountScreens/MyAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Routes/SideMenu/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Routes/SideMenu/SideMenu.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R52N918KRBF]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -26,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1633343922195" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1634535032166" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">

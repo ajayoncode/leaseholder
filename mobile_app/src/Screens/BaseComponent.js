@@ -9,6 +9,9 @@ import { WebApi, WebConstant } from "NetworkHelper";
 export default class BaseComponent extends Component {
     constructor(props) {
         super(props);
+        this.state={
+            isLoadingVisible:false
+        }
     }
 
     viewSpinner = () => {

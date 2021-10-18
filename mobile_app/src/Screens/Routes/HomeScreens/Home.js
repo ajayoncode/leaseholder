@@ -220,8 +220,8 @@ export default class Home extends Component {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={[homeStyles.verticalTextStyle, { backgroundColor: Colors.light_gray, height: 20, width: 80, marginLeft: -16, marginTop: 40, position: 'absolute', justifyContent: 'center', alignItems: 'center' }]}>
-          <Text style={{ padding: 2, height: 20, fontSize: ScreenRatio(1.5), overflow: 'visible', paddingStart: 10, paddingEnd: 10, color: this.props.screenProps.textColour }}>{item.type}</Text>
+        <View style={[homeStyles.verticalTextStyle, { backgroundColor: Colors.light_gray, minHeight: 20, minWidth: 80, marginLeft: -16, marginTop: 40, position: 'absolute', justifyContent: 'center', alignItems: 'center' }]}>
+          <Text style={{ padding: ScreenRatio(0.3), minHeight: 20, fontSize: ScreenRatio(1.2), overflow: 'visible', paddingStart: 10, paddingEnd: 10, color: this.props.screenProps.textColour }}>{item.type}</Text>
         </View>
       </View>
     )

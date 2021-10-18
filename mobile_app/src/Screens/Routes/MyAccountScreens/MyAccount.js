@@ -75,7 +75,7 @@ export default class MyAccount extends Component {
 
   render() {
     return (
-        <View style={{ height:this.state.height,width:this.state.width,flex: 1, backgroundColor: Colors.white, flexDirection: 'column' }}>
+        <ScrollView style={{ height:this.state.height,width:this.state.width,flex: 1, backgroundColor: Colors.white, flexDirection: 'column' }}>
           <View style={{ backgroundColor: Colors.white, alignSelf:'flex-end', marginRight: 10, marginBottom: 10 }}>
             {
               (this.state.pdf != "" && this.state.pdf != null) ?
@@ -121,7 +121,7 @@ export default class MyAccount extends Component {
             renderItem={this._renderRow}
 
           />
-        </View>
+        </ScrollView>
     );
   }
 
@@ -172,7 +172,7 @@ export default class MyAccount extends Component {
           {
             (item[0].documentID != null) ?
               <TouchableOpacity onPress={() => this.onViewDoc(item[0].Date_of_Invoice, this.state.blockID, item[0].documentID)} style={[Styles.TouchableOpacityStyle, { backgroundColor: this.props.screenProps.buttonBgColour, width:ScreenRatio(8),height: ScreenRatio(3.5) }]}>
-                <Text style={[Styles.btnTextStyle, { fontSize:ScreenRatio(2.7),color: this.props.screenProps.buttonTextColour }]}>{Strings.view}</Text>
+                <Text style={[Styles.btnTextStyle, { fontSize:ScreenRatio(2.5),color: this.props.screenProps.buttonTextColour }]}>{Strings.view}</Text>
               </TouchableOpacity>
               :
               null

@@ -62,7 +62,7 @@ const MessageHeader = props => {
         }}>
 
             <TouchableOpacity style={{
-                width:'20%',
+                width:'15%',
                 fontFamily: Fonts.SFProDisplayBold, fontSize: aspectRatio>1.6?10:20, color: 'white', height: aspectRatio>1.6?40:60, alignItems: 'center', justifyContent: 'center',
                 backgroundColor: isAllSelect ? props.colorTheme.buttonBgColour : 'white',
             }}
@@ -74,7 +74,7 @@ const MessageHeader = props => {
             <View style={{ width: 1, height: aspectRatio>1.6?40:60, backgroundColor: Colors.inptxt_grey, }} />
 
             <TouchableOpacity style={{
-                width:'30%',
+                width:'37%',
                 fontFamily: Fonts.SFProDisplayBold, fontSize: aspectRatio>1.6?10:20, color: 'white', height: aspectRatio>1.6?40:60, alignItems: 'center', justifyContent: 'center',
                 backgroundColor: isAgentSelect ? props.colorTheme.buttonBgColour : 'white',
             }}
@@ -97,8 +97,8 @@ const MessageHeader = props => {
             <View style={{ width: 1, height: 40, backgroundColor: Colors.inptxt_grey, }} />
 
             <TouchableOpacity style={{
-                width:'25%',
-                 fontFamily: Fonts.SFProDisplayBold, fontSize: aspectRatio>1.6?10:20, color: 'white', height: aspectRatio>1.6?40:60, alignItems: 'center', justifyContent: 'center',
+                width:'23%',
+                fontFamily: Fonts.SFProDisplayBold, fontSize: aspectRatio>1.6?10:20, color: 'white', height: aspectRatio>1.6?40:60, alignItems: 'center', justifyContent: 'center',
                 backgroundColor: isTicketSelect ? props.colorTheme.buttonBgColour : 'white',
             }}
                 onPress={this.btnTicketClicked}

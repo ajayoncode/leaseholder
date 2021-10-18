@@ -175,7 +175,7 @@ export default class Messages extends Component {
 
             {/* Search View UI */}
             <View style={{ width: this.state.width*0.9, marginTop: 10, flexDirection: 'row', height: aspectRatio > 1.6 ? 40 : 60, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-              <View style={{width: this.state.width*0.7, height: aspectRatio > 1.6 ? 35 : 55, borderRadius: aspectRatio > 1.6 ? 25 : 30, borderWidth: 1.5, borderColor: Colors.inptxt_grey, overflow: 'hidden',  justifyContent: 'center' }}>
+              <View style={{width: this.state.width*0.5, height: aspectRatio > 1.6 ? 35 : 55, borderRadius: aspectRatio > 1.6 ? 25 : 30, borderWidth: 1.5, borderColor: Colors.inptxt_grey, overflow: 'hidden',  justifyContent: 'center' }}>
 
 
                 <TextInput style={{ padding: 5, fontSize: aspectRatio > 1.6 ? 15 : 25, color: Colors.black }}
@@ -405,7 +405,7 @@ export default class Messages extends Component {
         <View style={{
           width: this.state.width-40, borderRadius: aspectRatio > 1.6 ? 5 : 10, borderWidth: 1.5,
           borderColor: Colors.inptxt_grey,
-          marginLeft: aspectRatio > 1.6 ? 20 : 40, marginRight: aspectRatio > 1.6 ? 20 : 40,
+          marginLeft: aspectRatio > 1.6 ? 25 : 45, marginRight: aspectRatio > 1.6 ? 20 : 40,
           paddingStart: 10,
           paddingTop:ScreenRatio(0.5)
         }}>
@@ -420,7 +420,7 @@ export default class Messages extends Component {
                 {
                   (item.attachments[0] ? item.attachments[0].file_location : "" != "") ?
                     <TouchableOpacity onPress={() => this.onViewDoc(item)} style={[MsgStyles.viewDocumentStyle, { backgroundColor: this.props.screenProps.buttonBgColour, }]}>
-                      <Text style={{ color: this.props.screenProps.buttonTextColour, fontSize: ScreenRatio(2.1) }}>{Strings.attachment}</Text>
+                      <Text style={{ color: this.props.screenProps.buttonTextColour, fontSize: ScreenRatio(1.8) }}>{Strings.attachment}</Text>
                     </TouchableOpacity>
                     :
                     null
@@ -444,8 +444,8 @@ export default class Messages extends Component {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={[MsgStyles.verticalTextStyle, { backgroundColor: Colors.light_gray, height: aspectRatio > 1.6 ? 20 : 30, width: aspectRatio > 1.6 ? 80 : 140, marginLeft: aspectRatio > 1.6 ? -22 : -32, marginTop: aspectRatio > 1.6 ? 40 : 80, position: 'absolute', justifyContent: 'center', alignItems: 'center' }]}>
-          <Text style={[{ padding: 2, height: aspectRatio > 1.6 ? 20 : 30, fontSize: ScreenRatio(1.5), overflow: 'visible', paddingStart: 10, paddingEnd: 10, color: this.props.screenProps.textColour }]}>{item.type}</Text>
+        <View style={[MsgStyles.verticalTextStyle, { backgroundColor: Colors.light_gray, minHeight: 20, minWidth: 80, marginLeft: -16, marginLeft: -16, marginTop: 40, position: 'absolute', justifyContent: 'center', alignItems: 'center' }]}>
+          <Text style={[{  padding: ScreenRatio(0.3), minHeight: 20, fontSize: ScreenRatio(1.2), overflow: 'visible', paddingStart: 10, paddingEnd: 10, color: this.props.screenProps.textColour }]}>{item.type}</Text>
         </View>
 
       </View>

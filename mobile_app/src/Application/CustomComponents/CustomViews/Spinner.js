@@ -27,7 +27,7 @@ class Spinner extends Component{
         
         const {visible,color,screenProps} = this.props
         return(
-            <Modal visible = {visible} animationType={"none"} transparent = {true} onRequestClose={()=>{}}>
+            <Modal visible = {visible} animationType={"none"} transparent = {true} onRequestClose={()=>{}}  supportedOrientations={['portrait', 'landscape']}            >
                 <View style = {[{flex:1,alignItems:"center",justifyContent:"center",backgroundColor:Colors.background_light_black_color}]}>
                     <View style = {SpinnerStyle.loading_cont}>
                         <ActivityIndicator animating = {visible} size = {"large"} color = {color?color:Colors.white}/>

@@ -75,7 +75,7 @@ export default class ContactUs extends Component {
 
                         {
                             this.state.contactUsText != "" &&
-                            <HTML html={this.state.contactUsText} style={{ marginTop: 5 }} ignoredStyles={['height', 'width']} imagesMaxWidth={ScreenRatio(50)} />
+                            <HTML html={this.state.contactUsText} style={{ marginTop: 5 }} ignoredStyles={['height', 'width']} imagesMaxWidth={this.state.width*0.80} />
                         }
 
                         <Text style={{ color: this.props.screenProps.primaryColour, fontFamily: Fonts.SFProDisplayBold, fontSize: aspectRatio > 1.6 ? 20 : 35, marginTop: 20, }}>{this.state.agent_name}</Text>
